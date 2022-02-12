@@ -5,6 +5,7 @@ public class CCuenta {
 
 
     private String nombre;
+    private String apellido;
     private String cuenta;
     private double saldo;
     private double tipoInterés;
@@ -71,5 +72,13 @@ public class CCuenta {
 
 	private void setTipoInterés(double tipoInterés) {
 		this.tipoInterés = tipoInterés;
+	}
+
+	private String getApellido() {
+		return apellido;
+	}
+
+	private void setApellido(String apellido) {
+		this.apellido = apellido;
 	}
 }
